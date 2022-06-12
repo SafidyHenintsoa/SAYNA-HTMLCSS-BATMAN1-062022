@@ -128,7 +128,7 @@ h1 {
 }
 
 #textPage2 {
-    padding-right: 70px;
+    padding-right: 130px;
     text-align: justify;
     padding-top: 30px;
 }
@@ -149,4 +149,16 @@ h1 {
     text-align: center;
     align-items: center;
     gap: 20px;
+}
+
+#imgBat13 {
+    width: 140px;
+    margin-left: 8%;
+    margin-bottom: -5%;
+}
+
+#imgBat12 {
+    margin-top: -12%;
+    margin-left: 72%;
+    margin-bottom: -7%;
 }
