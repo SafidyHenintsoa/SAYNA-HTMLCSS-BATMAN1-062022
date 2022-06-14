@@ -4,6 +4,7 @@
     --yellow-light: #F8F184;
     --blue-color: #19587D;
     --gris-border: rgba(188, 187, 189, 0.1);
+    scroll-behavior: smooth;
 }
 
 * {
@@ -90,6 +91,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: var(--yellow-color);
+    font-weight: bold;
 }
 
 #hero {
@@ -209,4 +211,27 @@ main {
 
 #imgBat11 {
     width: 100%;
+}
+
+
+/* style de la page multimedia */
+
+.multimedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.textDMiltimedia {
+    background-image: linear-gradient(120deg, rgba(237, 222, 191, 0.4), rgba(25, 89, 93, 0.4));
+    border-radius: 4%;
+}
+
+#imgBat_ba2 {
+    width: 90%;
+}
+
+.centrerimg {
+    text-align: center;
 }
