@@ -175,32 +175,31 @@
                 <img id="imgBat_ba2" src="./Assets/Illustrations/Bathome_ba2.png" alt="">
             </div>
         </section>
-        <section>
-            <div>
-                <h1>PRENONS CONTACT</h1>
+        <section class="newsletter">
+            <div class="news-bloc">
                 <form action="">
-                    <label for="email">ADRESS EMAIL</label>
-                    <input type="email" name="email" placeholder="email">
-                    <br>
-                    <label for="">NEWSLETTER</label>
-                    <Label>En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de Batman :</Label>
-                    <input type="checkbox">
-                    <br>
-                    <div>
-                        <samp>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</samp>
-                        <span>
-                            <img src="./Assets/Logos/icon_flèche_2.png" alt="">
-                        </span>
+                    <h1>PRENONS CONTACT</h1>
+                    <label for="mail">ADDRESSE EMAIL</label>
+                    <input type="text" id="mail" placeholder="Addresse email">
+                    <h3>NEWSLETTER</h3>
+                    <label for="nws" class="label2">En cochant cette case vous acceptez de recevoir l’actualité concernant les
+                    aventures de Batman : <input type="checkbox" id="nws"></label>
+                    <!-- dropdown list -->
+                    <div class="dropdown">
+                        <input type="text" class="dropdown-in" disabled placeholder="Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter">
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
                     </div>
-                    <div>
-                        <p>Souhaitez-vous recevoir des news</p>
+                    <p>Souhaitez vous recevoir des news </p>
+                    <div class="btn-groupe">
+                        <button>Des films</button><button>Des comics</button><button>De tout</button>
                     </div>
-                    <div>
-                        <a href="">des films</a>
-                        <a href="">Des comics</a>
-                        <a href="">de tout</a>
-                    </div>
-                    <input type="submit" value="CONFIRMER">
+                    <h3>MESSAGE</h3>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Laissez un commentaire pour la communauté"></textarea>
+                    <div class="bloc-confirmer"><button class="btn-confirmer">CONFIRMER</button></div>
                 </form>
             </div>
         </section>
